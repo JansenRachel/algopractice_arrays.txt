@@ -12,10 +12,9 @@ Challenge 1: Print Values and Sum
 
 var sum = 0;
 
-for(var i=0; i<arr.length; i++){
+for(var i=0; i<testArr.length; i++){
     sum = sum + arr[i];
-    console.log(arr[i]);
-    console.log(sum);
+    console.log('Num'; testArr[i], 'Sum'; sum);
 }
 
 
@@ -27,6 +26,7 @@ Challenge 2: Value * Position
 2.  The expected output will be:
     [0,3,10,3,8,20]
 
-for(var i=0; i<arr.length; i++){
-    console.log(arr[i]*i)
+for(var i=0; i<testArr.length; i++){
+    testArr[i] = testArr[i] * i;
 }
+console.log(testArr);
