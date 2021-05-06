@@ -10,7 +10,12 @@ Challenge 1: Print Values and Sum
     Num 2, Sum 17
     Num 4, Sum 21
 
-
+var sum = 0;
+for(var i=0; i<arr.length; i++){
+    sum = sum + arr[i];
+    console.log(arr[i]);
+    console.log(sum);
+}
 
 
 
