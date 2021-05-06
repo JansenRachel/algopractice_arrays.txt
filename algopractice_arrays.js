@@ -11,6 +11,7 @@ Challenge 1: Print Values and Sum
     Num 4, Sum 21
 
 var sum = 0;
+
 for(var i=0; i<arr.length; i++){
     sum = sum + arr[i];
     console.log(arr[i]);
@@ -25,3 +26,7 @@ Challenge 2: Value * Position
 1.  Multiply each value in the array by its array position
 2.  The expected output will be:
     [0,3,10,3,8,20]
+
+for(var i=0; i<arr.length; i++){
+    console.log(arr[i]*i)
+}
